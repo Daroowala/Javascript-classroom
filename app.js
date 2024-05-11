@@ -90,9 +90,17 @@
 // textNode.nodeValue = "Last Name: Tom";
 
 // 8th Ans
+// var mainContent = document.getElementById('main-content');
+// var firstChild = mainContent.firstChild;
+// var lastChild = mainContent.lastChild;{
+//     console.log(firstChild);
+//     console.log(lastChild);
+// }
+
+// 9th Ans
 var mainContent = document.getElementById('main-content');
-var firstChild = mainContent.firstChild;
-var lastChild = mainContent.lastChild;{
-    console.log(firstChild);
-    console.log(lastChild);
+var firstSibling = mainContent.firstSibling;
+var lastSibling = mainContent.lastSibling;{
+    console.log(firstSibling);
+    console.log(lastSibling);
 }
