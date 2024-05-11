@@ -98,9 +98,17 @@
 // }
 
 // 9th Ans
-var mainContent = document.getElementById('main-content');
-var firstSibling = mainContent.firstSibling;
-var lastSibling = mainContent.lastSibling;{
-    console.log(firstSibling);
-    console.log(lastSibling);
+// var mainContent = document.getElementById('main-content');
+// var firstSibling = mainContent.firstSibling;
+// var lastSibling = mainContent.lastSibling;{
+//     console.log(firstSibling);
+//     console.log(lastSibling);
+// }
+
+// 10th Ans
+var emailElement = document.getElementById('email');
+var parentNode = emailElement.parentNode;
+var nodeType = emailElement.nodeType;{
+    console.log(parentNode);
+    console.log(nodeType);
 }
