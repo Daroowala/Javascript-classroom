@@ -83,3 +83,16 @@
 // 5th & 6th Ans
 // var lastNameElement = document.getElementById('last-name');
 // console.log(lastNameElement.nodeType);
+
+// 7th Ans
+// var lastNameElement = document.getElementById('last-name');
+// var textNode = lastNameElement.childNodes[0];
+// textNode.nodeValue = "Last Name: Tom";
+
+// 8th Ans
+var mainContent = document.getElementById('main-content');
+var firstChild = mainContent.firstChild;
+var lastChild = mainContent.lastChild;{
+    console.log(firstChild);
+    console.log(lastChild);
+}
