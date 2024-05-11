@@ -79,3 +79,7 @@
 // document.getElementById('first-name').value = 'Alex';
 // document.getElementById('last-name').value = "Bank";
 // document.getElementById('email').value = "alexbank@example.com"
+
+// 5th & 6th Ans
+// var lastNameElement = document.getElementById('last-name');
+// console.log(lastNameElement.nodeType);
