@@ -57,3 +57,19 @@
 //document.write(c)
 
 
+// Assingmeng DOM
+// var main1 = document.getElementById('main-content');
+// console.log(main1);
+
+
+// var main1 = document.getElementById('main-content');
+// var children = main1.children;
+// for (var i = 0; i < children.length; i++){
+//     console.log(children[i]);
+// }
+
+
+var renderElements = document.getElementsByClassName('content');
+for (var i = 0; i < renderElements.length; i++){
+    console.log(renderElements[i].innerHTML);
+}
