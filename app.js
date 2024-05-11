@@ -75,7 +75,7 @@
 //     console.log(renderElements[i].innerHTML);
 // }
 
-// 4rt Ans
+// 4th Ans
 // document.getElementById('first-name').value = 'Alex';
 // document.getElementById('last-name').value = "Bank";
 // document.getElementById('email').value = "alexbank@example.com"
