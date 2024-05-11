@@ -74,3 +74,8 @@
 // for (var i = 0; i < renderElements.length; i++){
 //     console.log(renderElements[i].innerHTML);
 // }
+
+// 4rt Ans
+// document.getElementById('first-name').value = 'Alex';
+// document.getElementById('last-name').value = "Bank";
+// document.getElementById('email').value = "alexbank@example.com"
